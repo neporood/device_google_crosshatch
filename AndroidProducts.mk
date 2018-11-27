@@ -20,8 +20,12 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_crosshatch_hwasan.mk \
     $(LOCAL_DIR)/aosp_blueline_hwasan.mk \
     $(LOCAL_DIR)/vf/aosp_crosshatch_vf.mk \
+    $(LOCAL_DIR)/scorpion_blueline.mk \
+    $(LOCAL_DIR)/scorpion_crosshatch.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_crosshatch-userdebug \
     aosp_blueline-userdebug \
     aosp_crosshatch_vf-userdebug \
+    scorpion_blueline-userdebug \
+    scorpion_crosshatch-userdebug
