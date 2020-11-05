@@ -6,6 +6,10 @@
 
 DEVICE_PACKAGE_OVERLAYS += device/google/crosshatch/overlay-crooked
 
+# Elmyra
+PRODUCT_PACKAGES += \
+    ElmyraService
+
 # EUICC
 
 PRODUCT_COPY_FILES += \
