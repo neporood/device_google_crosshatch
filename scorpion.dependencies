@@ -2,5 +2,9 @@
   {
     "repository": "kernel_google_bluecross",
     "target_path": "kernel/google/bluecross"
+  },
+  {
+    "repository": "packages_apps_ElmyraService",
+    "target_path": "packages/apps/ElmyraService"
   }
 ]
