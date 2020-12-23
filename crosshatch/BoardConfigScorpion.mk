@@ -5,3 +5,5 @@
 #
 
 include device/google/crosshatch/BoardConfigScorpion.mk
+
+include vendor/google/crosshatch/BoardConfigVendor.mk
