@@ -24,8 +24,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/scorpion_crosshatch.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_crosshatch-userdebug \
-    aosp_blueline-userdebug \
-    aosp_crosshatch_vf-userdebug \
+    scorpion_blueline-user \
     scorpion_blueline-userdebug \
+    scorpion_crosshatch-user \
     scorpion_crosshatch-userdebug
