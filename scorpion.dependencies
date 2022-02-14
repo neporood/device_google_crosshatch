@@ -13,5 +13,10 @@
    "repository":  "vendor_google_crosshatch",
    "target_path": "vendor/google/crosshatch",
    "branch":      "sr5"
+ },
+ {
+   "repository":  "vendor_gapps",
+   "target_path": "vendor/gapps",
+   "branch":      "sr5"
  }
 ]
