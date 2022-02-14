@@ -28,4 +28,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := google/crosshatch/crosshatch:12/SP1A.210812.016.C1/8029091:user/release-keys
 
 $(call inherit-product, vendor/google/crosshatch/crosshatch-vendor.mk)
-$(call inherit-product-if-exists, vendor/mini_gapps/common/common-vendor.mk)
+$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
