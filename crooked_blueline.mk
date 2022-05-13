@@ -5,17 +5,17 @@
 #
 
 # Inherit some common stuff.
-$(call inherit-product, vendor/scorpion/config/common_full_phone.mk)
+$(call inherit-product, vendor/crooked/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/crosshatch/aosp_blueline.mk)
 
-include device/google/crosshatch/blueline/device-scorpion.mk
+include device/google/crosshatch/blueline/device-crooked.mk
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 3
-PRODUCT_NAME := scorpion_blueline
+PRODUCT_NAME := crooked_blueline
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2160
@@ -28,4 +28,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := google/blueline/blueline:12/SP1A.210812.016.C1/8029091:user/release-keys
 
 $(call inherit-product, vendor/google/blueline/blueline-vendor.mk)
-$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
+$(call inherit-product-if-exists, vendor/gms/products/gms.mk)

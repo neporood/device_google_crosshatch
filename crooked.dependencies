@@ -1,0 +1,12 @@
+[
+ {
+   "repository":  "device_google_crosshatch-sepolicy",
+   "target_path": "device/google/crosshatch-sepolicy",
+   "branch":      "cr1"
+ },
+ {
+   "repository":  "kernel_google_msm-4.9",
+   "target_path": "kernel/google/msm-4.9",
+   "branch":      "cr1"
+ }
+]

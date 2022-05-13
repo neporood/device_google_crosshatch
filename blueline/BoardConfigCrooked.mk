@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-include device/google/crosshatch/BoardConfigScorpion.mk
+include device/google/crosshatch/BoardConfigCrooked.mk
 
 include vendor/google/blueline/BoardConfigVendor.mk
