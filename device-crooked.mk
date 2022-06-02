@@ -7,6 +7,9 @@
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-crooked
 
+# Parts
+$(call inherit-product-if-exists, vendor/google/pixelparts/pixelparts.mk)
+
 # Camera
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.camera.extensions.package=com.google.android.apps.camera.services \

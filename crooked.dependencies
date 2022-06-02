@@ -8,5 +8,11 @@
    "repository":  "kernel_google_msm-4.9",
    "target_path": "kernel/google/msm-4.9",
    "branch":      "cr1"
+ },
+ {
+    "repository": "CrookedAndroid/android_vendor_google_pixelparts",
+    "target_path": "vendor/google/pixelparts",
+    "branch": "cr1",
+    "remote": "gitlab"
  }
 ]
